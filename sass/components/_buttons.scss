@@ -1,12 +1,18 @@
 .btn {
   padding: 9px 20px;
-  border: none;
   border-radius: 3px;
-  color: white;
   cursor: pointer;
 
   &-primary {
     background-color: #4a95e4;
+    border: none;
+    color: white;
+  }
+
+  &-success {
+    background-color: #28a745;
+    border: none;
+    color: white;
   }
 
   &-transparent {
@@ -14,6 +20,7 @@
     background-color: transparent;
     padding: 9px 0px;
     font-size: 13px;
+    border: none;
 
     &-inactive {
       color: $color-inactive-button;
@@ -25,5 +32,27 @@
     color: black;
     background-color: transparent;
     padding: 15px 5px 15px 35px;
+    border: none;
   }
+
+  // For players list
+  &-inline-success {
+    background-color: transparent;
+    border: 2px solid #28a745;
+    color: #28a745;
+    transition: all 0.3s;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #218838;
+      border: 2px solid #218838;
+      color: white;
+    }
+  }
+}
+
+.btn-block {
+  width: 90%;
+  padding: 1rem;
+  border-radius: 7px;
 }

@@ -56,10 +56,13 @@
 
 .text-name {
   font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
 }
 
 .text-place {
   font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .profile-flex {
@@ -87,7 +90,6 @@
 // THIS IS FOR THE WALL ////////////////////////////////
 .profile-wall {
   width: 40%;
-  height: 45rem;
   // background: white;
   // border-radius: 10px;
   // border: 1px solid $color-palette-3;
@@ -131,8 +133,8 @@
         // background: yellow;
 
         &__img {
-          height: 65px;
-          width: 65px;
+          height: 60px;
+          width: 60px;
           background-color: red;
           border-radius: 30%;
           background-repeat: no-repeat;
@@ -146,10 +148,16 @@
 
       &__info {
         flex: 65%;
+        padding-top: 14px; // Change this later, so the texts aligns center vertically
       }
 
       &__dropdown {
         flex: 15%;
+        text-align: right;
+        // background: yellow;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
       }
     }
 
@@ -162,6 +170,7 @@
       border-top: 1px solid $color-border;
       display: flex;
       padding: 0.2rem 0;
+      align-items: center;
       &__left {
         flex: 50%;
         text-align: left;
@@ -205,14 +214,20 @@
 .text-post {
   &-name {
     font-weight: bold;
-    font-size: 1.7rem;
+    font-size: 15px;
+    line-height: 1.4rem;
   }
 
   &-location {
-    font-size: 1.6rem;
+    font-size: 13px;
     color: rgb(167, 148, 148);
   }
 
   &-content {
+    font-size: 13px;
+  }
+
+  &-date {
+    font-size: 12px;
   }
 }

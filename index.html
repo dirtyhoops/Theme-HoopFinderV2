@@ -17,6 +17,12 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
 
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="css/style.css" />
 
     <title>Welcome to HoopFinderV2</title>
@@ -47,7 +53,7 @@
             </div>
           </div>
           <div class="profile-wall">
-            <div class="profile-wall-form">
+            <div class="profile-wall-form u-margin-bottom-md">
               <form>
                 <textarea
                   class="form-textarea"
@@ -68,41 +74,142 @@
                 </div>
               </form>
             </div>
-            <div class="profile-wall-post u-margin-top-md">
-              <div class="profile-wall-post-header">
-                <div class="profile-wall-post-header__image">
-                  <div class="profile-wall-post-header__image__img"></div>
+            <div class="profile-wall-post-container">
+              <!-- PROFILE WALL POST #1 (GOING TO NEED JUST ONE OF THESE LATER ONCE WERE PULLING REAL DATAS) -->
+              <div class="profile-wall-post u-margin-bottom-md">
+                <div class="profile-wall-post-header">
+                  <div class="profile-wall-post-header__image">
+                    <div class="profile-wall-post-header__image__img"></div>
+                  </div>
+                  <div class="profile-wall-post-header__info">
+                    <p class="text-post-name">Daryll Osis</p>
+                    <p class="text-post-location">San Jose, CA</p>
+                  </div>
+                  <div class="profile-wall-post-header__dropdown">
+                    <button class="btn btn-transparent-dropdown">
+                      <i class="fa fa-chevron-down"></i>
+                    </button>
+                  </div>
                 </div>
-                <div class="profile-wall-post-header__info">
-                  <p class="text-post-name">Daryll Osis</p>
-                  <p class="text-post-location">San Jose, CA</p>
+                <div class="profile-wall-post-content">
+                  <p class="text-post-content">
+                    It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout. The point of using Lorem Ipsum is that it has a
+                    more-or-less normal distribution of letters, as opposed to
+                    using 'Content here, content here', making it look like
+                    readable English. Many desktop publishing packages and web
+                    page editors now use Lorem Ipsum as their default model
+                    text, and a search for 'lorem ipsum' will uncover many web
+                    sites still in their infancy. Various versions have evolved
+                    over the years, sometimes by accident, sometimes on purpose
+                    (injected humour and the like).
+                  </p>
                 </div>
-                <div class="profile-wall-post-header__dropdown"></div>
+                <div class="profile-wall-post-footer">
+                  <div class="profile-wall-post-footer__left">
+                    <button class="btn btn-transparent u-margin-right-sm">
+                      <i class="fa fa-heart"></i> Like
+                    </button>
+                    <button class="btn btn-transparent">
+                      <i class="fa fa-comment"></i> Comment
+                    </button>
+                  </div>
+                  <div class="profile-wall-post-foot__right">
+                    <p class="text-post-date">April 1st 2020, 11:12 pm</p>
+                  </div>
+                </div>
               </div>
-              <div class="profile-wall-post-content">
-                <p class="text-post-content">
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                  The point of using Lorem Ipsum is that it has a more-or-less
-                  normal distribution of letters, as opposed to using 'Content
-                  here, content here', making it look like readable English.
-                  Many desktop publishing packages and web page editors now use
-                  Lorem Ipsum as their default model text, and a search for
-                  'lorem ipsum' will uncover many web sites still in their
-                  infancy. Various versions have evolved over the years,
-                  sometimes by accident, sometimes on purpose (injected humour
-                  and the like).
-                </p>
-              </div>
-              <div class="profile-wall-post-footer">
-                <div class="profile-wall-post-footer__left">
-                  <button class="btn btn-transparent u-margin-right-sm">
-                    Like
-                  </button>
-                  <button class="btn btn-transparent">Comment</button>
+
+              <!-- PROFILE WALL POST #2 (GOING TO NEED JUST ONE OF THESE LATER ONCE WERE PULLING REAL DATAS) -->
+              <div class="profile-wall-post u-margin-bottom-md">
+                <div class="profile-wall-post-header">
+                  <div class="profile-wall-post-header__image">
+                    <div class="profile-wall-post-header__image__img"></div>
+                  </div>
+                  <div class="profile-wall-post-header__info">
+                    <p class="text-post-name">Daryll Osis</p>
+                    <p class="text-post-location">San Jose, CA</p>
+                  </div>
+                  <div class="profile-wall-post-header__dropdown">
+                    <button class="btn btn-transparent-dropdown">
+                      <i class="fa fa-chevron-down"></i>
+                    </button>
+                  </div>
                 </div>
-                <div class="profile-wall-post-foot__right">
-                  <p>April 1st 2020, 11:12 pm</p>
+                <div class="profile-wall-post-content">
+                  <p class="text-post-content">
+                    It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout. The point of using Lorem Ipsum is that it has a
+                    more-or-less normal distribution of letters, as opposed to
+                    using 'Content here, content here', making it look like
+                    readable English. Many desktop publishing packages and web
+                    page editors now use Lorem Ipsum as their default model
+                    text, and a search for 'lorem ipsum' will uncover many web
+                    sites still in their infancy. Various versions have evolved
+                    over the years, sometimes by accident, sometimes on purpose
+                    (injected humour and the like).
+                  </p>
+                </div>
+                <div class="profile-wall-post-footer">
+                  <div class="profile-wall-post-footer__left">
+                    <button class="btn btn-transparent u-margin-right-sm">
+                      <i class="fa fa-heart"></i> Like
+                    </button>
+                    <button class="btn btn-transparent">
+                      <i class="fa fa-comment"></i> Comment
+                    </button>
+                  </div>
+                  <div class="profile-wall-post-foot__right">
+                    <p class="text-post-date">April 1st 2020, 11:12 pm</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- PROFILE WALL POST #3 (GOING TO NEED JUST ONE OF THESE LATER ONCE WERE PULLING REAL DATAS) -->
+              <div class="profile-wall-post u-margin-bottom-md">
+                <div class="profile-wall-post-header">
+                  <div class="profile-wall-post-header__image">
+                    <div class="profile-wall-post-header__image__img"></div>
+                  </div>
+                  <div class="profile-wall-post-header__info">
+                    <p class="text-post-name">Daryll Osis</p>
+                    <p class="text-post-location">San Jose, CA</p>
+                  </div>
+                  <div class="profile-wall-post-header__dropdown">
+                    <button class="btn btn-transparent-dropdown">
+                      <i class="fa fa-chevron-down"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="profile-wall-post-content">
+                  <p class="text-post-content">
+                    It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout. The point of using Lorem Ipsum is that it has a
+                    more-or-less normal distribution of letters, as opposed to
+                    using 'Content here, content here', making it look like
+                    readable English. Many desktop publishing packages and web
+                    page editors now use Lorem Ipsum as their default model
+                    text, and a search for 'lorem ipsum' will uncover many web
+                    sites still in their infancy. Various versions have evolved
+                    over the years, sometimes by accident, sometimes on purpose
+                    (injected humour and the like).
+                  </p>
+                </div>
+                <div class="profile-wall-post-footer">
+                  <div class="profile-wall-post-footer__left">
+                    <button class="btn btn-transparent u-margin-right-sm">
+                      <i class="fa fa-heart"></i> Like
+                    </button>
+                    <button class="btn btn-transparent">
+                      <i class="fa fa-comment"></i> Comment
+                    </button>
+                  </div>
+                  <div class="profile-wall-post-foot__right">
+                    <p class="text-post-date">April 1st 2020, 11:12 pm</p>
+                  </div>
                 </div>
               </div>
             </div>

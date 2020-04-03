@@ -1,0 +1,16 @@
+.btn {
+  padding: 9px;
+  border: none;
+  border-radius: 3px;
+  color: white;
+
+  &-primary {
+    background-color: #4a95e4;
+  }
+
+  &-transparent {
+    color: black;
+    background-color: transparent;
+    padding: 9px 0px;
+  }
+}

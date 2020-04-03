@@ -6,11 +6,9 @@
 
 .profile-info {
   height: 53rem;
-  // background: yellow;
 
   &__backdrop {
     height: 38rem;
-    background: green;
     background-image: url(/img/backdrop1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -45,7 +43,9 @@
 
   &-name {
     width: 50%;
+    padding-top: 0.7rem;
     // background: aqua;
+    font-family: 'Montserrat', sans-serif;
   }
 
   &-editbutton {
@@ -55,14 +55,17 @@
 }
 
 .text-name {
-  font-size: 3rem;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
   font-weight: 500;
+  line-height: 3rem;
 }
 
-.text-place {
-  font-size: 2rem;
-  font-family: 'Montserrat', sans-serif;
+.text-location {
+  font-size: 1.5rem;
+}
+
+.text-position {
+  font-size: 1.5rem;
 }
 
 .profile-flex {
@@ -215,7 +218,7 @@
   &-name {
     font-weight: bold;
     font-size: 15px;
-    line-height: 1.4rem;
+    line-height: 15px;
   }
 
   &-location {
@@ -229,5 +232,15 @@
 
   &-date {
     font-size: 12px;
+    color: rgb(177, 166, 166);
   }
+}
+
+// For ICON in the posts color
+.icon-heart-inactive {
+  color: $color-inactive-button;
+}
+
+.icon-heart-active {
+  color: red;
 }

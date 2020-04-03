@@ -14,8 +14,13 @@
     background-color: transparent;
     padding: 9px 0px;
     font-size: 13px;
+
+    &-inactive {
+      color: $color-inactive-button;
+    }
   }
 
+  // for the dropdown in the post component
   &-transparent-dropdown {
     color: black;
     background-color: transparent;

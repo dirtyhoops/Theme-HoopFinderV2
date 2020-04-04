@@ -411,10 +411,10 @@ body {
           background-image: url(/img/profile6.png);
           border: 4px solid #e6e2e2; }
       .profile-wall-post-header__info {
-        flex: 65%;
+        flex: 0 0 65%;
         padding-top: 14px; }
       .profile-wall-post-header__dropdown {
-        flex: 15%;
+        flex: 0 0 15%;
         text-align: right;
         display: flex;
         align-items: center;
@@ -492,7 +492,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between; }
   .players-grid__box {
-    flex: 23% 0 0;
+    flex: 0 0 23%;
     background-color: white;
     border-radius: 5px;
     box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
@@ -534,3 +534,54 @@ body {
 
 .players-text-location {
   font-size: 1.1rem; }
+
+.courts-wrapper {
+  padding: 5rem 0;
+  background-color: #f4f8fb;
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif; }
+
+.courts__grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .courts__grid__box {
+    flex: 0 0 23%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #f4f4f4;
+    margin: 4rem 0;
+    text-align: center; }
+    .courts__grid__box__image {
+      flex: 0 0 100%;
+      height: 150px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      overflow: hidden; }
+      .courts__grid__box__image__img {
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover; }
+    .courts__grid__box__info {
+      flex: 0 0 100%;
+      height: 100px;
+      padding: 1rem; }
+    .courts__grid__box__footer__left {
+      flex: 0 0 50%;
+      text-align: left;
+      padding-left: 1rem; }
+    .courts__grid__box__footer__right {
+      flex: 0 0 50%;
+      text-align: right;
+      padding-right: 1rem; }
+
+.text-courtinfo-name {
+  font-weight: 600;
+  font-size: 15px; }
+
+.text-courtinfo-location {
+  font-size: 14px; }

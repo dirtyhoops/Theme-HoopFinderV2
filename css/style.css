@@ -137,6 +137,12 @@ body {
   padding: 1rem;
   border-radius: 7px; }
 
+.nav {
+  width: 100vw;
+  height: 7rem;
+  background-color: #19202e;
+  color: white; }
+
 .profile-wrapper {
   padding: 5rem 0;
   background-color: #f4f8fb;

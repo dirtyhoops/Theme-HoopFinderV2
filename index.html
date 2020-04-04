@@ -28,6 +28,22 @@
     <title>Welcome to HoopFinderV2</title>
   </head>
   <body>
+    <nav class="nav">
+      <div class="navbar container">
+        <div class="navbar__logo">
+          HoopFinderV2
+        </div>
+        <div class="navbar__menu">
+          <ul class="navbar__menu__list">
+            <li class="navbar__menu__list-items">Home</li>
+            <li class="navbar__menu__list-items">Court</li>
+            <li class="navbar__menu__list-items">Players</li>
+            <li class="navbar__menu__list-items">My profile</li>
+            <li class="navbar__menu__list-items">Home</li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div class="players-wrapper">
       <div class="players container">
         <div class="players-filterbar">
@@ -44,7 +60,9 @@
             <div class="players-grid__box__info">
               <p class="players-text-name">Kevin Durant</p>
               <p class="players-text-position">Small Forward</p>
-              <p class="players-text-location">San Francisco, CA</p>
+              <p class="players-text-location">
+                <i class="fa fa-map-marker"></i> San Francisco, CA
+              </p>
             </div>
             <div class="players-grid__box__button">
               <button class="btn-block btn-inline-success">Add Player</button>
@@ -107,6 +125,25 @@
             </div>
             <div class="players-grid__box__button">
               <button class="btn-block btn-primary">Friend</button>
+            </div>
+          </div>
+
+          <div class="players-grid__box">
+            <div class="players-grid__box__image">
+              <img
+                src="img/profile2-big.png"
+                class="players-grid__box__image__img players-grid__box__image__img--pink"
+              />
+            </div>
+            <div class="players-grid__box__info">
+              <p class="players-text-name">James Harder</p>
+              <p class="players-text-position">Shooting Guard</p>
+              <p class="players-text-location">
+                <i class="fa fa-map-marker"></i> Houston, TX
+              </p>
+            </div>
+            <div class="players-grid__box__button">
+              <button class="btn-block btn-inline-success">Add Player</button>
             </div>
           </div>
 
